@@ -29,7 +29,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "less",
-            "baseHref": "./",
+            "baseHref": "/",
             "assets": [
               "src/favicon.ico",
               "src/assets",
