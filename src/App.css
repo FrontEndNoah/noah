@@ -1,0 +1,26 @@
+.home-bg-head {
+  height: 33.33vh;
+  top: -50vh;
+}
+.home-bg-head:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  border-bottom: 16.67vh solid #0000;
+  border-left: 100vw solid var(--primary-color);
+}
+
+@keyframes HomeBgHead {
+  from {
+    top: -50vh;
+  }
+  to {
+    top: 0;
+  }
+}
+
+.home-bg-head.active {
+  top: 0;
+  animation: HomeBgHead 1s ease-out;
+}

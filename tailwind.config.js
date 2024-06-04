@@ -4,16 +4,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: 'var(--primary-color)',
-        success: 'var(--success-color)',
-        error: 'var(--error-color)',
-        warning: 'var(--warning-color)',
+        primary: "var(--primary-color)",
+        "primary-active": "var(--primary-color-active)",
+        success: "var(--success-color)",
+        "success-active": "var(--success-color-active)",
+        error: "var(--error-color)",
+        "error-active": "var(--error-color-active)",
+        warning: "var(--warning-color)",
+        "warning-active": "var(--warning-color-active)",
       },
       textColor: {
-        main: 'var(--font-color-main)',
-        sec: 'var(--font-color-second)',
-        acc: 'var(--font-color-accent)'
-      }
+        main: "var(--font-color-main)",
+        sec: "var(--font-color-second)",
+        acc: "var(--font-color-accent)",
+      },
     },
   },
   plugins: [],

@@ -7,11 +7,25 @@ import App from "./App";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navigate to="/home" replace />,
-  },
-  {
-    path: "/home",
     Component: App,
+    children: [
+      {
+        path: "/",
+        element: <Navigate to={"overview"} />,
+      },
+      {
+        path: "/overview",
+        element: <div></div>,
+      },
+      {
+        path: "/technology-stack",
+        element: <div></div>,
+      },
+      {
+        path: 'work-experience',
+        element: <div></div>,
+      }
+    ],
   },
 ]);
 
